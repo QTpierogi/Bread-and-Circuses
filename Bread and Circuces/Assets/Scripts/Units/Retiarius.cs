@@ -30,7 +30,7 @@ namespace Units
 
         public override void OnAttackStart(UnitInfo target)
         {
-            ChangeAnimation("Retiarius", animation: Animation.Attack);
+            //ChangeAnimation("Retiarius", animation: Animation.Attack);
         }
 
         public override void OnDefenceStart()
@@ -41,11 +41,11 @@ namespace Units
         {
             if (blockDamage == 0)
             {
-                ChangeAnimation("Retiarius", animation: Animation.Block);
+                //ChangeAnimation("Retiarius", animation: Animation.Block);
             }
             else
             {
-                ChangeAnimation("Retiarius", animation: Animation.Hit);
+                //ChangeAnimation("Retiarius", animation: Animation.Hit);
             }
             base.OnDefenceEnd(blockDamage);
         }

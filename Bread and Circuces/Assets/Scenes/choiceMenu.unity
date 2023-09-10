@@ -10485,8 +10485,8 @@ MonoBehaviour:
   cards: {fileID: 1978679724}
   charIcon: {fileID: 21300000, guid: 59e9cf642c16b9a4eb3d62af9b860ad7, type: 3}
   button: {fileID: 958033301}
-  leftPosition: {x: -240, y: 160, z: 0}
-  rightPosition: {x: -130, y: 12, z: 0}
+  leftPosition: {x: -170, y: 160, z: 0}
+  rightPosition: {x: -55, y: 120, z: 0}
   slotPosition: 
 --- !u!61 &822169552
 BoxCollider2D:
@@ -10727,7 +10727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -113.420074, y: 0}
+  m_AnchoredPosition: {x: -113.420105, y: 0}
   m_SizeDelta: {x: -226.83, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863761505
@@ -22390,7 +22390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.34, y: 2.79}
+  m_AnchoredPosition: {x: -55, y: 120}
   m_SizeDelta: {x: 400, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1842872567

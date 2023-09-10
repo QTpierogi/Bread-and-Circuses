@@ -37,7 +37,7 @@ namespace Units
 
         public override void OnAttackStart(UnitInfo target)
         {
-            ChangeAnimation("Scissor", animation: Animation.Attack);
+            //ChangeAnimation("Scissor", animation: Animation.Attack);
             if (currentStance == Stance.Raging)
                 damage++;
         }
@@ -50,11 +50,11 @@ namespace Units
         {
             if (blockDamage == 0)
             {
-                ChangeAnimation("Scissor", animation: Animation.Block);
+                //ChangeAnimation("Scissor", animation: Animation.Block);
             }
             else
             {
-                ChangeAnimation("Scissor", animation: Animation.Hit);
+                //ChangeAnimation("Scissor", animation: Animation.Hit);
             }
 
             base.OnDefenceEnd(blockDamage);

@@ -149,7 +149,7 @@ public class UnitControl : MonoBehaviour
         posX = targetHex.transform.position.x + info.offset.x;
         posY = targetHex.transform.position.y + info.offset.y;
         var previousHex = transform.parent.gameObject.GetComponent<HexTile>();
-        transform.parent = targetHex.transform;
+        //transform.SetParent(targetHex.transform, true);
         previousHex.isOccupied = false;
         MoveObject();
     }
@@ -179,7 +179,7 @@ public class UnitControl : MonoBehaviour
             float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
             while (sqrRemainingDistance > 0f /*&& isMoving*/)
             {
-                Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, 10f * Time.deltaTime);
+                Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, Time.deltaTime / 10);
                 rb2d.MovePosition(newPosition);
                 sqrRemainingDistance = (transform.position - end).sqrMagnitude;
                 yield return null;

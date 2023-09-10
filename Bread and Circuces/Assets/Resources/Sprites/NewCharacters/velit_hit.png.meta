@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 837c7cee92d8aba46b542d7c2d649760
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2676134287631202083
+    second: velit_hit_0
+  - first:
+      213: 2460286054677339593
+    second: velit_hit_1
+  - first:
+      213: 2702207468436781460
+    second: velit_hit_2
+  - first:
+      213: -6427383139613124732
+    second: velit_hit_3
+  - first:
+      213: 7267469252413213593
+    second: velit_hit_4
+  - first:
+      213: 7501270510042433184
+    second: velit_hit_5
+  - first:
+      213: -4085403913823543507
+    second: velit_hit_6
+  - first:
+      213: -5569181615117106763
+    second: velit_hit_7
+  - first:
+      213: -8664641898078066902
+    second: velit_hit_8
+  - first:
+      213: -8037355222370717053
+    second: velit_hit_9
+  - first:
+      213: -6039165587234210423
+    second: velit_hit_10
+  - first:
+      213: 3415816774800731625
+    second: velit_hit_11
+  - first:
+      213: -3027830629630306137
+    second: velit_hit_12
+  - first:
+      213: -6821466553839866859
+    second: velit_hit_13
+  - first:
+      213: -5392994894870637667
+    second: velit_hit_14
+  - first:
+      213: -2534137012943495950
+    second: velit_hit_15
+  - first:
+      213: -1616840192128758191
+    second: velit_hit_16
+  - first:
+      213: 4723908400363004467
+    second: velit_hit_17
+  - first:
+      213: -5135828526205737755
+    second: velit_hit_18
+  - first:
+      213: -7675459681902579129
+    second: velit_hit_19
+  - first:
+      213: -4342721190140011353
+    second: velit_hit_20
+  - first:
+      213: 1988288949022184922
+    second: velit_hit_21
+  - first:
+      213: -8344400824793318835
+    second: velit_hit_22
+  - first:
+      213: 769109217057909805
+    second: velit_hit_23
+  - first:
+      213: 4449546426163485035
+    second: velit_hit_24
+  - first:
+      213: 3228845693854197175
+    second: velit_hit_25
+  - first:
+      213: 9162710146985582861
+    second: velit_hit_26
+  - first:
+      213: 5163759453138257223
+    second: velit_hit_27
+  - first:
+      213: 7537304436436651425
+    second: velit_hit_28
+  - first:
+      213: 2574519109162256950
+    second: velit_hit_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: velit_hit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8cf7e4b067cdad0800000000000000
+      internalID: -2676134287631202083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdd3eea121b42220800000000000000
+      internalID: 2460286054677339593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499f499206b208520800000000000000
+      internalID: 2702207468436781460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_3
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487560896195dc6a0800000000000000
+      internalID: -6427383139613124732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_4
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc926c7cc3bd460800000000000000
+      internalID: 7267469252413213593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_5
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6413319cdd91860800000000000000
+      internalID: 7501270510042433184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_6
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f9e8829cabd47c0800000000000000
+      internalID: -4085403913823543507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_7
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b10f4de3da46b2b0800000000000000
+      internalID: -5569181615117106763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_8
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a272717d91201c780800000000000000
+      internalID: -8664641898078066902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_9
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 1652
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38276fc4204957090800000000000000
+      internalID: -8037355222370717053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d342135e2903ca0800000000000000
+      internalID: -6039165587234210423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed61d7424b676f20800000000000000
+      internalID: 3415816774800731625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_12
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a896d0a51cfaf5d0800000000000000
+      internalID: -3027830629630306137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_13
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51caa2b9f484551a0800000000000000
+      internalID: -6821466553839866859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_14
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d939db767bb3825b0800000000000000
+      internalID: -5392994894870637667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_15
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc555b20dfe4dcd0800000000000000
+      internalID: -2534137012943495950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_16
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e47916964df89e0800000000000000
+      internalID: -1616840192128758191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_17
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332ee1b69a1be8140800000000000000
+      internalID: 4723908400363004467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_18
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4603c8a2fd9b8b0800000000000000
+      internalID: -5135828526205737755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_19
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 826
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7423d5ce51a4b7590800000000000000
+      internalID: -7675459681902579129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac9427161e8bb3c0800000000000000
+      internalID: -4342721190140011353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_21
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad55d45c342d79b10800000000000000
+      internalID: 1988288949022184922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_22
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ab7be09abb23c80800000000000000
+      internalID: -8344400824793318835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_23
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c273c02cc6caa00800000000000000
+      internalID: 769109217057909805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_24
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69551f56e6ffbd30800000000000000
+      internalID: 4449546426163485035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_25
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5aab82d0a2fcc20800000000000000
+      internalID: 3228845693854197175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_26
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0161f2255c782f70800000000000000
+      internalID: 9162710146985582861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_27
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7450fd52ddb59a740800000000000000
+      internalID: 5163759453138257223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_28
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad48c95372e99860800000000000000
+      internalID: 7537304436436651425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: velit_hit_29
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 0
+        width: 619
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a42194d778ab320800000000000000
+      internalID: 2574519109162256950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,7 +29,7 @@ namespace Units
 
         public override void OnAttackStart(UnitInfo target)
         {
-            ChangeAnimation("Murmillo", animation: Animation.Attack);
+            //ChangeAnimation("Murmillo", animation: Animation.Attack);
         }
 
         public override void OnDefenceStart()
@@ -42,11 +42,11 @@ namespace Units
         {
             if (blockDamage == 0)
             {
-                ChangeAnimation("Murmillo", animation: Animation.Block);
+                //ChangeAnimation("Murmillo", animation: Animation.Block);
             }
             else
             {
-                ChangeAnimation("Murmillo", animation: Animation.Hit);
+                //ChangeAnimation("Murmillo", animation: Animation.Hit);
             }
 
             base.OnDefenceEnd(blockDamage);

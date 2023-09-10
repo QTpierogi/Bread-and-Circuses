@@ -88,9 +88,8 @@ public class Board : MonoBehaviour
     void SpawnUnit(GameObject unit, Vector2 coordinates, Team team)
     {
         var startPos = board[(int)coordinates.x][(int)coordinates.y];
-        var newUnit = Instantiate(unit, startPos.transform.position, gridObject.transform.rotation);
+        var newUnit = Instantiate(unit, startPos.transform, false);
         newUnit.GetComponent<UnitInfo>().teamSide = team;
-        newUnit.transform.parent = startPos.gameObject.transform;
 
         if (newUnit.GetComponent<UnitInfo>().teamSide == Team.Enemy)
         {

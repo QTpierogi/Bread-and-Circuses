@@ -74,40 +74,40 @@ public abstract class UnitInfo : MonoBehaviour
         healthbar.SetHealth(health, maxHealth);
     }
 
-    protected void ChangeAnimation(string characterName, Animation animation)
-    {
-        if (animation == Animation.Attack)
-        {
-            spriteRenderer.sortingOrder = 2;
-            characterName += "InGameAttack";
+    //protected void ChangeAnimation(string characterName, Animation animation)
+    //{
+    //    if (animation == Animation.Attack)
+    //    {
+    //        spriteRenderer.sortingOrder = 2;
+    //        characterName += "InGameAttack";
 
-            animator.Play(characterName);
-            AttackSound.Play();
-        }
+    //        animator.Play(characterName);
+    //        AttackSound.Play();
+    //    }
 
-        if (animation == Animation.Hit)
-        {
-            if (spriteRenderer.sortingOrder > 1)
-            {
-                spriteRenderer.sortingOrder = 1;
-            }
+    //    if (animation == Animation.Hit)
+    //    {
+    //        if (spriteRenderer.sortingOrder > 1)
+    //        {
+    //            spriteRenderer.sortingOrder = 1;
+    //        }
 
-            characterName += "InGameHit";
-            animator.Play(characterName);
-        }
+    //        characterName += "InGameHit";
+    //        //animator.Play(characterName);
+    //    }
 
-        if (animation == Animation.Block)
-        {
-            characterName += "InGameBlock";
-            animator.Play(characterName);
-            float i = 0;
-            while (i < 1)
-            {
-                i += Time.deltaTime;
-            }
-            BlockSound.Play();
-        }
-    }
+    //    if (animation == Animation.Block)
+    //    {
+    //        characterName += "InGameBlock";
+    //        //animator.Play(characterName);
+    //        float i = 0;
+    //        while (i < 1)
+    //        {
+    //            i += Time.deltaTime;
+    //        }
+    //        BlockSound.Play();
+    //    }
+    //}
 
 
     public bool IsEnemy(UnitInfo otherUnit)

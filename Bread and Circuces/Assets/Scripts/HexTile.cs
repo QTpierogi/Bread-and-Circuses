@@ -21,9 +21,6 @@ public class HexTile : MonoBehaviour
         else
         {
             isOccupied = true;
-            var child = gameObject.transform.GetChild(0);
-            if (child.transform.position == transform.position)
-                child.transform.position += child.GetComponent<UnitInfo>().offset;
         }
     }
 }

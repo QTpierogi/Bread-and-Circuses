@@ -28,7 +28,7 @@ public class Dimacher : UnitInfo
 
     public override void OnAttackStart(UnitInfo target)
     {
-        ChangeAnimation("Dimacher", animation: Animation.Attack);
+        //ChangeAnimation("Dimacher", animation: Animation.Attack);
     }
 
     public override void OnDefenceStart()
@@ -39,11 +39,11 @@ public class Dimacher : UnitInfo
     {
         if (blockDamage == 0)
         {
-            ChangeAnimation("Dimacher", animation: Animation.Block);
+            //ChangeAnimation("Dimacher", animation: Animation.Block);
         }
         else
         {
-            ChangeAnimation("Dimacher", animation: Animation.Hit);
+            //ChangeAnimation("Dimacher", animation: Animation.Hit);
         }
 
         base.OnDefenceEnd(blockDamage);

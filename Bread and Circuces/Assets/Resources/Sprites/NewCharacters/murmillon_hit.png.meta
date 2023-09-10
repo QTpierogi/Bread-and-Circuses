@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 53160542d2bf5b24e8067344d4fdf395
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7777755864342268168
+    second: murmillon_hit_0
+  - first:
+      213: -673204754988880269
+    second: murmillon_hit_1
+  - first:
+      213: -5790657509580161485
+    second: murmillon_hit_2
+  - first:
+      213: -2745838079824243545
+    second: murmillon_hit_3
+  - first:
+      213: -150826872701306955
+    second: murmillon_hit_4
+  - first:
+      213: 7130181341637189523
+    second: murmillon_hit_5
+  - first:
+      213: 7263808107502572115
+    second: murmillon_hit_6
+  - first:
+      213: 7765903011833229966
+    second: murmillon_hit_7
+  - first:
+      213: -2949112372291900210
+    second: murmillon_hit_8
+  - first:
+      213: 1072039836880145938
+    second: murmillon_hit_9
+  - first:
+      213: -6750469477417059205
+    second: murmillon_hit_10
+  - first:
+      213: 8691368245199405425
+    second: murmillon_hit_11
+  - first:
+      213: -8060983382822033749
+    second: murmillon_hit_12
+  - first:
+      213: -8889644554415305830
+    second: murmillon_hit_13
+  - first:
+      213: -3382961104989678862
+    second: murmillon_hit_14
+  - first:
+      213: -251361857630901084
+    second: murmillon_hit_15
+  - first:
+      213: -4745583170667906529
+    second: murmillon_hit_16
+  - first:
+      213: -5215375155766803246
+    second: murmillon_hit_17
+  - first:
+      213: -7628873827895257270
+    second: murmillon_hit_18
+  - first:
+      213: -1412415215418990859
+    second: murmillon_hit_19
+  - first:
+      213: -6349614827458102926
+    second: murmillon_hit_20
+  - first:
+      213: -4092667074607925940
+    second: murmillon_hit_21
+  - first:
+      213: 223592987852939577
+    second: murmillon_hit_22
+  - first:
+      213: -6675452120797024397
+    second: murmillon_hit_23
+  - first:
+      213: -2814564245174604624
+    second: murmillon_hit_24
+  - first:
+      213: 7320886560836738137
+    second: murmillon_hit_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: murmillon_hit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6fa2cef3cdf0490800000000000000
+      internalID: -7777755864342268168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_1
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ea8c597db48a6f0800000000000000
+      internalID: -673204754988880269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_2
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33eb68ddca373afa0800000000000000
+      internalID: -5790657509580161485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_3
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4d55180d2d4e9d0800000000000000
+      internalID: -2745838079824243545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_4
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b73e0622c728edf0800000000000000
+      internalID: -150826872701306955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_5
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f1764272e73f260800000000000000
+      internalID: 7130181341637189523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_6
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3521b4c0dfa3ec460800000000000000
+      internalID: 7263808107502572115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_7
+      rect:
+        serializedVersion: 2
+        x: 5194
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82b47cc4a706cb60800000000000000
+      internalID: 7765903011833229966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_8
+      rect:
+        serializedVersion: 2
+        x: 5936
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecce4d62ce5a217d0800000000000000
+      internalID: -2949112372291900210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_9
+      rect:
+        serializedVersion: 2
+        x: 6678
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e0f4e3d86a0ee00800000000000000
+      internalID: 1072039836880145938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_10
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c707b96c38152a0800000000000000
+      internalID: -6750469477417059205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_11
+      rect:
+        serializedVersion: 2
+        x: 8162
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1718833ce51fd9870800000000000000
+      internalID: 8691368245199405425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_12
+      rect:
+        serializedVersion: 2
+        x: 8904
+        y: 749
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6e09e7252a12090800000000000000
+      internalID: -8060983382822033749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b079a8063a1a480800000000000000
+      internalID: -8889644554415305830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_14
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f290287cce4d01d0800000000000000
+      internalID: -3382961104989678862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_15
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ace3d5e8bbf28cf0800000000000000
+      internalID: -251361857630901084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_16
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a744cdf3d442eb0800000000000000
+      internalID: -4745583170667906529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_17
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d44f169de34f97b0800000000000000
+      internalID: -5215375155766803246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_18
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47570c4cabc02690800000000000000
+      internalID: -7628873827895257270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_19
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe189948d7166ce0800000000000000
+      internalID: -1412415215418990859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_20
+      rect:
+        serializedVersion: 2
+        x: 5194
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2797ec4c4f2a1e7a0800000000000000
+      internalID: -6349614827458102926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_21
+      rect:
+        serializedVersion: 2
+        x: 5936
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45be02cafce337c0800000000000000
+      internalID: -4092667074607925940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_22
+      rect:
+        serializedVersion: 2
+        x: 6678
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9312e3743ac5a1300800000000000000
+      internalID: 223592987852939577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_23
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe3c80aa70c53a0800000000000000
+      internalID: -6675452120797024397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_24
+      rect:
+        serializedVersion: 2
+        x: 8162
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc2ad03bb8a0f8d0800000000000000
+      internalID: -2814564245174604624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: murmillon_hit_25
+      rect:
+        serializedVersion: 2
+        x: 8904
+        y: 0
+        width: 742
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cda931a83099560800000000000000
+      internalID: 7320886560836738137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
