@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackSound: {fileID: 8291525025076190869}
   BlockSound: {fileID: 1062084562113790727}
-  unitName: 
+  unitName: "\u0414\u0438\u043C\u0430\u0445\u0435\u0440"
   health: 0
   moveDistance: 0
   attackReachDistance: 0
@@ -136,6 +136,7 @@ MonoBehaviour:
   altSkin: {fileID: 0}
   healthbar: {fileID: 171428804369474183}
   maxHealth: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!61 &771729444164306025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -196,7 +197,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: a0bc4649c437a634090dca7671cb7543, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

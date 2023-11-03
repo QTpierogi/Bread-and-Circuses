@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackSound: {fileID: 0}
   BlockSound: {fileID: 0}
-  unitName: 
+  unitName: "\u0424\u0440\u0430\u043A\u0438\u0435\u0446"
   health: 0
   moveDistance: 0
   attackReachDistance: 0
@@ -196,7 +196,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6a886d052378a954ebb6a0167412e411, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

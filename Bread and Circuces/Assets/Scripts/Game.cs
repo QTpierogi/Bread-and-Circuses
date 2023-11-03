@@ -4,7 +4,7 @@ using System.Linq;
 using Card;
 using Meta;
 
-public class Game : MonoBehaviour
+public class Game
 {
     public Player Player, Enemy;
 

@@ -101,7 +101,7 @@ public class Board : MonoBehaviour
     {
         unit.GetComponent<SpriteRenderer>().flipX = true;
         unit.GetComponent<UnitControl>().faceRight = false;
-        unit.GetComponent<SpriteRenderer>().sprite = unit.GetComponent<UnitInfo>().altSkin;
+        //unit.GetComponent<SpriteRenderer>().sprite = unit.GetComponent<UnitInfo>().altSkin;
         unit.transform.GetChild(0).transform.localPosition = new Vector3(unit.transform.GetChild(0).transform.localPosition.x,
                                                                             unit.transform.GetChild(0).transform.localPosition.y, -7f);
         unit.transform.GetChild(1).transform.localPosition = new Vector3(unit.transform.GetChild(1).transform.localPosition.x,

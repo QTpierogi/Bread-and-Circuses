@@ -149,7 +149,7 @@ public class UnitControl : MonoBehaviour
         posX = targetHex.transform.position.x + info.offset.x;
         posY = targetHex.transform.position.y + info.offset.y;
         var previousHex = transform.parent.gameObject.GetComponent<HexTile>();
-        //transform.SetParent(targetHex.transform, true);
+        transform.SetParent(targetHex.transform, true);
         previousHex.isOccupied = false;
         MoveObject();
     }
@@ -170,16 +170,16 @@ public class UnitControl : MonoBehaviour
         var previousX = transform.position.x + info.offset.x;
         foreach (var point in path)
         {
-            var end = new Vector3(point.transform.position.x + info.offset.x, point.transform.position.y + info.offset.y, transform.position.z + +info.offset.z);
+            var end = new Vector3(point.transform.position.x + info.offset.x, point.transform.position.y + info.offset.y, transform.position.z + info.offset.z);
             var diffX = end.x - previousX;
             if (diffX > 0 && !faceRight)
                 Flip();
             if (diffX < 0 && faceRight)
                 Flip();
             float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-            while (sqrRemainingDistance > 0f /*&& isMoving*/)
+            while (sqrRemainingDistance > 0.001f /*&& isMoving*/)
             {
-                Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, Time.deltaTime / 10);
+                Vector3 newPosition = Vector3.MoveTowards(rb2d.position, end, Time.deltaTime * 10);
                 rb2d.MovePosition(newPosition);
                 sqrRemainingDistance = (transform.position - end).sqrMagnitude;
                 yield return null;
@@ -265,7 +265,7 @@ public class UnitControl : MonoBehaviour
     {
         List<HexTile> tiles = new List<HexTile>();
         if (info.OnMoveStart() && turnManager.currTeam == info.teamSide)
-            distance++;
+            distance += 2;
         if (info.motionType == MotionType.RadiusType)
             tiles = distanceFinder.FindPaths(transform.parent.GetComponent<HexTile>(), distance);
         else if (info.motionType == MotionType.StraightType)

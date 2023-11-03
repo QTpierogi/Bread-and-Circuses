@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1043549258136488978}
   - component: {fileID: 1043549258136488977}
   - component: {fileID: 1043549258136488976}
-  - component: {fileID: 2515678930202598212}
+  - component: {fileID: 5272930860698767597}
   - component: {fileID: 771729444164306025}
   - component: {fileID: 7133125819691203070}
   - component: {fileID: 4734411932903936424}
@@ -107,7 +107,7 @@ MonoBehaviour:
   wasActivated: 0
   faceRight: 1
   path: []
---- !u!114 &2515678930202598212
+--- !u!114 &5272930860698767597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,12 +116,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043549258136488991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eb3e72e8e375d8428058a9731330c67, type: 3}
+  m_Script: {fileID: 11500000, guid: 25f7c895bfa75e744967d66ec5964b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AttackSound: {fileID: 0}
   BlockSound: {fileID: 0}
-  unitName: 
+  unitName: "\u0412\u0435\u043B\u0438\u0442"
   health: 0
   moveDistance: 0
   attackReachDistance: 0
@@ -193,10 +193,10 @@ Animator:
   m_GameObject: {fileID: 1043549258136488991}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a1cafebd3e86224697735d20715110b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

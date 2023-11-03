@@ -63,7 +63,7 @@ public class TutorialManager : MonoBehaviour
             //playerOutlinePanel.SetActive(false);
         }
 
-        if(!discardedOnce && uiController.discardWindow.active)
+        if(!discardedOnce && uiController.discardWindow.activeSelf)
         {
             discardPanel.SetActive(true);
             discardedOnce = true;
